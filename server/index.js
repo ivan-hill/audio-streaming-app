@@ -1,8 +1,19 @@
 const express = require('express');
+const cors = require('cors'); // Import the CORS middleware
 const Pusher = require('pusher');
 
 const app = express();
 const port = process.env.PORT || 5000;
+
+// Configure CORS options
+const corsOptions = {
+  origin: 'http://localhost:3000', // Replace with the origin of your front-end
+  methods: ['GET', 'POST'],        // Allowed methods
+  allowedHeaders: ['Content-Type'], // Allowed headers
+};
+
+// Apply CORS middleware with options
+app.use(cors(corsOptions));
 
 // Body parser middleware to handle JSON payloads
 app.use(express.json());
