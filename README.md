@@ -1,37 +1,34 @@
 # audio-streaming-app
 Next.js app with real-time audio streaming and manipulation using Express, Redux, and Pusher
+Certainly! Here's the improved file structure in a more organized and clear format:
 
 File structure
-
 audio-stream-app/
-├── .env
-├── package.json
-├── next.config.js
-├── public/
-│   └── ... (static files like images)
-├── server/
-│   └── index.js        Express server setup
-├── src/
-│   ├── components/
-│   │   ├── AudioControls.js   UI for controlling audio input/output and filter
-│   │   └── AudioStream.js     Component for rendering the audio stream
-│   ├── pages/
-│   │   ├── _app.js           Custom App component for Next.js
-│   │   └── index.js          Main page of the application
-│   ├── redux/
-│   │   ├── actions/
-│   │   │   └── audioActions.js   Actions for audio manipulation
-│   │   ├── reducers/
-│   │   │   └── audioReducer.js   Reducers for audio state
-│   │   └── store.js           Redux store configuration
-│   ├── styles/
-│   │   └── globals.css        Global CSS styles
-│   └── utils/
-│       └── audioUtils.js       Utility functions for audio processing
-└── .gitignore
-
-
- File Details
+- .env
+- package.json
+- next.config.js
+- public/ 
+    - ... (static files like images)
+- server/
+    - index.js (Express server setup)
+- src/
+    - components/
+        - AudioControls.js (UI for controlling audio input/output and filter)
+        - AudioStream.js (Component for rendering the audio stream)
+    - pages/
+        - _app.js (Custom App component for Next.js)
+        - index.js (Main page of the application)
+    - redux/
+        - actions/
+            - audioActions.js (Actions for audio manipulation)
+        - reducers/
+            - audioReducer.js (Reducers for audio state)
+        - store.js (Redux store configuration)
+    - styles/
+        - globals.css (Global CSS styles)
+    - utils/
+        - audioUtils.js (Utility functions for audio processing)
+- .gitignore Details
 
 - .env: Store your environment variables here.
   
