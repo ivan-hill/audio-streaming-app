@@ -1,0 +1,39 @@
+{
+  "name": "audio-stream-app",
+  "version": "0.1.0",
+  "description": "Next.js app with real-time audio streaming and manipulation using Express, WebSockets, Redux, and Pusher",
+  "main": "server/index.js",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "node server/index.js"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.7",
+    "@tailwindcss/forms": "^0.5.9",
+    "@tailwindcss/typography": "^0.5.15",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "next": "14.2.8",
+    "pusher": "^5.2.0",
+    "pusher-js": "^7.6.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-redux": "^9.1.2",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.8",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}

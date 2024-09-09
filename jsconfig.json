@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",        // This sets the base directory for absolute paths
+    "paths": {
+      "@/components/*": ["src/components/*"],  // Maps `@/components/` to `src/components/`
+      "@/pages/*": ["src/pages/*"],
+      "@/redux/*": ["src/redux/*"],
+      "@/utils/*": ["src/utils/*"],
+      "@/styles/*": ["src/styles/*"]
+    }
+  },
+  "exclude": ["node_modules"]  // Common practice to exclude node_modules from source control
+}
