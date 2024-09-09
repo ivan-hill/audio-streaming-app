@@ -1,6 +1,6 @@
 # audio-streaming-app
-Next.js app with real-time audio streaming and manipulation using Express, Redux, and Pusher
-Certainly! Here's the improved file structure in a more organized and clear format:
+Next.js app with real-time audio streaming and manipulation using Express, Redux, Pusher, Three JS, GSAP, CORS middleware, and TailwindCSS
+
 
 File structure
 audio-stream-app/
